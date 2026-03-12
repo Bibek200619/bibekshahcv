@@ -5,137 +5,237 @@
   <meta name="viewport" content="width=device-width,initial-scale=1" />
   <title>Bibek Kumar Shah — CV</title>
 
-  <!-- Google Font -->
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Manrope:wght@400;500;600;700;800&family=Sora:wght@500;600;700&display=swap" rel="stylesheet">
 
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
-  <header class="site-header">
-    <div class="container header-inner">
-      <h1 class="site-title">Bibek Kumar Shah</h1>
-      <p class="site-subtitle">Bachelor of Computer Applications (BCA) — Big Data Analytics</p>
-    </div>
-  </header>
+  <div class="ambient-bg" aria-hidden="true">
+    <span class="blob blob-one"></span>
+    <span class="blob blob-two"></span>
+    <span class="blob blob-three"></span>
+  </div>
 
-  <main class="container layout">
-    <aside class="sidebar" aria-labelledby="profile-heading">
-      <div class="profile-card">
-        <img src="PXL_20250903_063603606~3.jpg" alt="Bibek Kumar Shah" class="profile-img" />
-        <h2 id="profile-heading" class="profile-name">Bibek Kumar Shah</h2>
-        <p class="profile-location">Bengaluru, Kudligate</p>
+  <header class="container hero">
+    <article class="hero-card reveal">
+      <img src="PXL_20250903_063603606~3.jpg" alt="Bibek Kumar Shah" class="profile-image" />
 
-        <div class="contact">
-          <p><strong>Phone:</strong> <a href="tel:+916026505550">(+91) 6026505550</a></p>
-          <p><strong>Email:</strong> <a href="mailto:bibekkumarshah574@gmail.com">bibekkumarshah574@gmail.com</a></p>
+      <div class="hero-details">
+        <p class="eyebrow">AI and Machine Learning Student</p>
+        <h1>Bibek Kumar Shah</h1>
+        <p class="headline">BCA at Dayananda Sagar University (2024-2027) focused on real-world ML systems and data-driven products.</p>
+
+        <div class="contact-row">
+          <a href="tel:+916026505550">6026505550</a>
+          <a href="mailto:bibekkumarshah2006@gmail.com">bibekkumarshah2006@gmail.com</a>
         </div>
 
-        <div class="quick-facts">
-          <h3>Education</h3>
-          <p><strong>Dayananda Sagar University</strong><br/>BCA — Big Data Analytics (2024 – Present)<br/>CGPA: 7.89</p>
-
-          <h3>Languages</h3>
-          <ul>
-            <li>English — Fluent</li>
-            <li>Hindi — Native</li>
-          </ul>
-        </div>
-
-        <div class="skills">
-          <h3>Technical Skills</h3>
-          <div class="skill-tags">
-            <span>HTML</span>
-            <span>CSS</span>
-            <span>JavaScript</span>
-            <span>React</span>
-            <span>Python</span>
-            <span>C</span>
-            <span>Web Dev</span>
-            <span>Problem Solving</span>
-          </div>
+        <div class="social-row">
+          <a href="https://github.com/bibek-kumar-shah" target="_blank" rel="noreferrer">github.com/bibek-kumar-shah</a>
+          <a href="https://linkedin.com/in/bibek-kumar-shah" target="_blank" rel="noreferrer">linkedin.com/in/bibek-kumar-shah</a>
         </div>
       </div>
-    </aside>
+    </article>
+  </header>
 
-    <section class="content" aria-live="polite">
-      <article class="card">
-        <h2>Career Objective</h2>
+  <main class="container resume-layout">
+    <section class="content-column">
+      <article class="section-card reveal">
+        <h2>Professional Summary</h2>
         <p>
-          Detail-oriented and motivated BCA student with foundational knowledge in C and Python. Enthusiastic about software development and learning modern data tooling, cloud platforms, and practical machine learning. Seeking internships and projects to build real-world experience.
+          Motivated AI and ML student pursuing BCA at Dayananda Sagar University with hands-on experience in machine learning pipelines,
+          model training, and data analysis using Python. Skilled in TensorFlow, PyTorch, and Scikit-learn, with strong interest in
+          building scalable AI systems to solve real-world problems.
         </p>
       </article>
 
-      <article class="card">
-        <h2>Education (Details)</h2>
-        <div class="education-item">
-          <h3>Dayananda Sagar University, Bengaluru</h3>
-          <p>Bachelor of Computer Applications (BCA) — Big Data Analytics (2024 – Present)</p>
-          <ul>
-            <li>1st Semester SGPA: 7.58</li>
-            <li>2nd Semester SGPA: 8.08</li>
-            <li>Current CGPA: 7.89</li>
-          </ul>
+      <article class="section-card reveal">
+        <div class="section-title-row">
+          <h2>Projects</h2>
+          <span class="chip">6 Projects</span>
+        </div>
+        <div class="project-grid">
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="Premier League Match Prediction project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>Premier League Match Prediction</h3>
+                <p>Built Logistic Regression and Random Forest models in Scikit-learn with preprocessing, feature engineering, and confusion matrix evaluation.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/match-predictor" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="Sudoku Solver project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>Sudoku Solver</h3>
+                <p>Developed an AI-based solver using backtracking and constraint satisfaction techniques for fast and reliable puzzle solving.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/suduco_solver-" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="Python Chess Game project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>Python Chess Game</h3>
+                <p>Implemented rule-based game logic, move validation, and modular architecture for maintainable gameplay mechanics.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/chess" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="NASA Flash App project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>NASA Flash App</h3>
+                <p>Integrated NASA APIs, handled JSON data, and rendered astronomy content with clean data-to-UI mapping.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/nasa-" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="Image Classification project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>Image Classification</h3>
+                <p>Built a machine learning project for image classification with model training, prediction flow, and evaluation support.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/image_classification" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card interactive-card flip-card" tabindex="0" role="button" aria-expanded="false" aria-label="Trading Bot project card">
+            <div class="project-card-inner">
+              <div class="project-face project-front">
+                <h3>Trading Bot</h3>
+                <p>Created a bot-based trading workflow with automated decision logic and data-driven strategy execution patterns.</p>
+              </div>
+              <div class="project-face project-back">
+                <p>Open the full code and project files on GitHub.</p>
+                <a href="https://github.com/Bibek200619/trad_bot" target="_blank" rel="noreferrer noopener" class="repo-link">View GitHub Repo</a>
+              </div>
+            </div>
+          </article>
+        </div>
+      </article>
+    </section>
+
+    <aside class="meta-column">
+      <article class="section-card reveal">
+        <h2>Technical Skills</h2>
+        <div class="skill-group">
+          <h3>Programming</h3>
+          <div class="pill-row">
+            <span>Python</span>
+            <span>C++</span>
+          </div>
         </div>
 
-        <div class="education-item">
-          <h3>Kendriya Vidyalaya</h3>
-          <p>12th Grade — 70.5%</p>
+        <div class="skill-group">
+          <h3>Machine Learning</h3>
+          <div class="pill-row">
+            <span>Scikit-learn</span>
+            <span>TensorFlow</span>
+            <span>PyTorch</span>
+            <span>Supervised Learning</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Data Science</h3>
+          <div class="pill-row">
+            <span>NumPy</span>
+            <span>Pandas</span>
+            <span>Matplotlib</span>
+            <span>Seaborn</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Tools</h3>
+          <div class="pill-row">
+            <span>Git</span>
+            <span>Jupyter Notebook</span>
+            <span>ChatGPT</span>
+            <span>Claude AI</span>
+          </div>
+        </div>
+
+        <div class="skill-group">
+          <h3>Concepts</h3>
+          <div class="pill-row">
+            <span>ML Pipelines</span>
+            <span>Feature Engineering</span>
+            <span>Model Evaluation</span>
+            <span>API Integration</span>
+          </div>
         </div>
       </article>
 
-      <article class="card">
-        <h2>Certifications</h2>
+      <article class="section-card reveal">
+        <h2>Education</h2>
         <ul>
-          <li>Google Data Analytics Professional Certificate — Coursera (Jan 2025)</li>
-          <li>Certified Python Programmer — PCEP (Mar 2025)</li>
-          <li>Introduction to Big Data — edX (Sep 2025)</li>
+          <li><strong>BCA, Dayananda Sagar University</strong> (2024-2027) - CGPA: 7.75</li>
+          <li><strong>Class 12, Kendriya Vidyalaya</strong> - 70.5% (2024)</li>
+          <li><strong>Class 10, Pranav Vidyapeeth</strong> - 58% (2022)</li>
         </ul>
       </article>
 
-      <article class="card">
-        <h2>Projects</h2>
-        <div class="project">
-          <h3>Tic-Tac-Toe Game (Python)</h3>
-          <p>Text-based console game for two players with move validation and winner/draw detection.</p>
-        </div>
+      <article class="section-card reveal">
+        <h2>Certifications</h2>
+        <ul>
+          <li>Harvard CS50 - Introduction to Computer Science</li>
+          <li>Harvard CS50 - Introduction to Programming with Python</li>
+          <li>Harvard CS50 - Introduction to AI with Python</li>
+          <li>IBM Generative AI Course</li>
+          <li>Oracle - Introduction to Machine Learning</li>
+        </ul>
+      </article>
 
-        <div class="project">
-          <h3>Hotel Management Website</h3>
-          <p>Simple web application to manage bookings and guest information. Features: room booking, availability checks.</p>
-        </div>
-
-        <div class="project">
-          <h3>NASA Flask App</h3>
-          <p>Flask app integrating NASA APIs for Astronomy Picture of the Day and Mars Rover images with multiple templates and dynamic rendering.</p>
-        </div>
-
-        <div class="project">
-          <h3>Resume-Building App using OpenAI API</h3>
-          <p>AI-powered resume generator using OpenAI's language model for personalized resume content generation.</p>
-        </div>
-
-        <div class="project">
-          <h3>REG System to Train Your Own LLM</h3>
-          <p>Implemented a recurrent generative system focusing on ML concepts, model training, and data handling.</p>
+      <article class="section-card reveal">
+        <h2>Soft Skills</h2>
+        <div class="pill-row">
+          <span>Problem Solving</span>
+          <span>Teamwork</span>
+          <span>Communication</span>
+          <span>Time Management</span>
         </div>
       </article>
 
-      <article class="card">
-        <h2>Training & Internships</h2>
-        <p>No active internships listed. (You can add details here when available.)</p>
+      <article class="section-card reveal">
+        <h2>Languages</h2>
+        <div class="pill-row">
+          <span>English</span>
+          <span>Hindi</span>
+        </div>
       </article>
-    </section>
+    </aside>
   </main>
 
   <footer class="site-footer">
     <div class="container">
-      <p>© <span id="year"></span> Bibek Kumar Shah — Built with HTML & CSS</p>
+      <p>&copy; <span id="year"></span> Bibek Kumar Shah</p>
     </div>
   </footer>
 
-  <script>
-    // Small script to update copyright year
-    document.getElementById('year').textContent = new Date().getFullYear();
-  </script>
+  <script src="index.js"></script>
 </body>
 </html>
