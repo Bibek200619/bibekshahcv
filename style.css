@@ -572,14 +572,6 @@ body::before {
   min-height: 232px;
 }
 
-.detail-project {
-  min-height: 212px;
-}
-
-.detail-project .project-card-inner {
-  min-height: 212px;
-}
-
 .featured-project .project-card-inner {
   min-height: 232px;
   border-color: rgba(15, 109, 223, 0.36);
